@@ -28,6 +28,7 @@ async function getData() {
     }
   } catch (error) {
     console.log(error);
+    results.innerHTML = message("error", error);
   }
 }
 
